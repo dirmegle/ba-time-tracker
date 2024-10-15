@@ -1,0 +1,13 @@
+#edit-submit-task-view,
+#edit-submit-performance-overview {
+  margin-bottom: 1rem;
+}
+
+.field--label {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+#block-ui-suite-bootstrap-account-menu-menu {
+  display: none;
+}
