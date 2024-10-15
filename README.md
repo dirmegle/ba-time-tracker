@@ -6,6 +6,15 @@ A minimalistic and straightforward system to track tasks and the time they take.
 
 ### How to run the system
 
+1. Please make sure you have `ddev` installed.
+2. Clone the repository.
+3. Run `ddev config`
+4. Run `ddev start`
+5. Run `ddev import-db --file=database.sql.gz` to import the database
+6. Run `ddev composer install`
+7. Run `ddev launch`
+8. Start managing your tasks :)
+
 ### How to use the system
 
 - `/user/login` - login with your credentials or create a new user
@@ -28,3 +37,7 @@ A minimalistic and straightforward system to track tasks and the time they take.
   - Modules like BetterExposedFilters to try and configure the filter properly.
 
 For now, the temporary workaround is simple selection.
+
+## Disclaimer
+
+Please know that I am aware that there are too many files commited in the repository. I did have a `.gitignore` file. However, possibly due to wrong placement of some custom css code and images, not all files are pulled successfully from repository and there are errors displayed in the Drupal system. To avoid that, `.gitignore` file was removed for now.
